@@ -9,6 +9,9 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@tailwindcss/typography": "^0.5.19",
     "firebase": "^10.14.0",
     "framer-motion": "^10.16.4",
     "react": "^18.2.0",
@@ -27,5 +30,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "components": {
+    "Stats": {
+      "render": "<div className=\"stats-container\">\n  <div className=\"stat-card\">\n    <span className=\"stat-icon\" role=\"img\" aria-label=\"Total Items\">📦</span>\n    <div className=\"stat-value\">0</div>\n    <div className=\"stat-label\">Total Items</div>\n  </div>\n  <div className=\"stat-card\">\n    <span className=\"stat-icon\" role=\"img\" aria-label=\"This Week\">🗓️</span>\n    <div className=\"stat-value\">0</div>\n    <div className=\"stat-label\">This Week</div>\n  </div>\n  <div className=\"stat-card\">\n    <span className=\"stat-icon\" role=\"img\" aria-label=\"With Photos\">📷</span>\n    <div className=\"stat-value\">0</div>\n    <div className=\"stat-label\">With Photos</div>\n  </div>\n</div>\n<button className=\"button-report\">Report Lost Item</button>"
+    }
   }
 }

@@ -2,10 +2,11 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-20 bg-white/80 backdrop-blur border-b border-slate-200">
+    <header className="sticky top-0 z-20 bg-white/80 backdrop-blur border-b border-slate-200 h-300">
       <div className="mx-auto max-w-7xl px-4 md:px-8 h-16 flex items-center gap-6">
         <Link to="/" className="flex items-center gap-3">
-          <img src="/logo192.png" alt="Find & Return" className="h-9 w-9 rounded-md" />
+          <img src="/logo1.png" alt="Find & Return" className="h-12 rounded-md" />
+          
           <span className="text-2xl md:text-3xl font-display font-extrabold">Find & Return</span>
         </Link>
 
