@@ -13,7 +13,7 @@ const AdminLogin = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (username === 'prasannakumar0396@gmail.com' && password === 'admin123') { // Replace 'yourPassword' with the actual password
+    if (username === 'Admin' && password === 'admin123') { // Replace 'yourPassword' with the actual password
       const userData = {
         id: '123',
         name: username,
